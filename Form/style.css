@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+    size: 50rem;
+    color: rgb(107, 55, 155);
+}
+form{
+    height: 50%;
+    width: 50%;
+    border: rgb(248, 246, 246) solid;
+    background-color: white;
+    margin: 25%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+
+}
+h1{
+    text-align: center;
+}
+.form-group{
+    display: block;
+    border: 0.5px;
+    border-color: rgb(66, 28, 102);
+    border-style: solid;
+    padding: 2%;
+    width: 95%;
+    margin-left: 2.5%;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+
+}
+div
+{
+    margin-left: 5%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 1%;
+    border: 0.5px;
+}
+button{
+    margin-left: 40%;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(32, 18, 71);
+    color: #ffffff;
+
+}
+label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+label, input,  textarea{
+    font-size: 1rem;
+    margin-top: 5px;
+    color: rgb(77, 39, 148);
+    
+}
+select{
+    font-size: 1rem;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 30px;
+    border: 1px solid rgb(56, 32, 78);
+}
+input[type="text"], input[type="tel"], input[type="file"], input[type="number"], textarea{
+    padding: 5px;
+
+    border: 1px solid rgb(63, 20, 112);
+}
