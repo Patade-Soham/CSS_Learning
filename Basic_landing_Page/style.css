@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    
+}
+#headerr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+
+}
+.feat{
+    padding: 2.3rem;
+    font-size: large;
+    font-weight: 540;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+.appname{
+    margin-left: 150px;
+    display: block;
+    padding: 0;
+
+}
+h2{
+    font-size: xx-large;
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+.main_body{
+    display: flex ;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10%;
+    justify-content: space-around;
+    height:650px;
+    width: 100%;
+}
+.boxes{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    text-align: left;
+    padding:10px;
+    border: solid whitesmoke;
+    background-color: rgb(231, 231, 231);
+    font-size: xx-large;
+    
+}
+.pgfeat{
+    display: flex;
+
+}
+#but{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+p{
+    margin: 10px;
+    font-size: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+h1{
+    color: rgb(19, 54, 117);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+button{
+    background-color:rgb(33, 33, 255);;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#but{
+    background-color: rgb(33, 33, 255);
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+h5{
+    color: rgb(33, 33, 255);;
+}
