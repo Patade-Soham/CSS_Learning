@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: solid brown;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .tex{
+            height: 100px;
+            width: 200px;
+            border: solid black 5px;
+            margin: 2px;
+            padding: 2px;
+
+        }
+        #tex1{
+            background-color: blue;
+        }
+        #tex2{
+            background-color: red;
+        }
+        .image{
+            height: 300px;
+            width: 400px;
+            border: solid black 5px;
+            margin: 2px;
+            padding: 2px;
+        }
+        .leftbox{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+        @media(max-width:650px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftbox">
+            <div class="tex" id="tex1">text1</div>
+            <div class="tex" id="tex2">text2</div>
+        </div>
+        <div class="rightbox">
+            <div class="image">img</div>
+        </div>
+    </div>
+</body>
+</html>
