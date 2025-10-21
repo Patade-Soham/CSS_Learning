@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    height: 100px;
+    width: 100vw;
+    border: solid azure 1px;
+    background-image: linear-gradient( 0deg,  rgba(255,162,0,1) 5.6%, rgba(255,195,0,1) 95.7% );}
+#ulist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    width: 40vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    font-size: 50px;
+    color:beige;
+    font-weight: 700;
+    font-family:cursive;   
+    text-shadow: 1px px 2px azure;
+}
+#page{
+    height: 100px;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 30px;
+    color: beige;
+    font-weight: 700;
+    text-decoration: none;
+}
+.menu{
+    width: 55vw;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 1px 5px rgb(112, 110, 110);
+
+}
+#foot{
+    width: 100vw;
+    height: 30px;
+    background-image: linear-gradient( 0deg,  rgba(255,162,0,1) 5.6%, rgba(255,195,0,1) 95.7% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(54, 54, 54);
+}
+.items{
+    border: solid px rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80vw;
+    background-color: rgb(253, 247, 240);
+    box-shadow: 2px 2px 7px black;
+}
+main{
+    width: 100vw;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: beige solid 3px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 9px black;
+}
+img:hover{
+    height: 320px;
+    width: 320px;
+}
+.des{
+    font-size: x-large;
+    height: 75px;
+
+    padding: 1px;
+
+}
+.dish{
+
+        font-size: 45px;
+
+}
+
+.item{
+    width: 78vw;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buttons{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    height: 80px;
+    width: 300px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: rgb(26, 185, 26)
+}
+button:hover{
+    height: 85px;
+    width: 320px;
+    background-color: rgb(102, 255, 88)
+}
