@@ -16,6 +16,7 @@
     justify-content: center;
     height: 400px;
     width: 800px;
+    box-shadow: 1px 1px 40px black;    
 
 }
 img{
@@ -52,3 +53,4 @@ img{
     font-size: larger;
     font-weight: bold;
 }
+
